@@ -1,0 +1,28 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+    color: aqua;
+    
+}
+.menu{
+    background-color: rgb(231, 216, 245);
+    color: aquamarine;
+}
+
+.menu-lista{
+    list-style: none;/*none tira as bolinhas*/
+    display: flex;
+    padding: 0;
+    margin: 0;
+ 
+}
+.menu-item{
+    margin: 0;
+
+}
+.menu-item a{
+    display: block;
+    padding: 15px none;
+    text-decoration: none;
+    color: rgb(124, 6, 6);
+}
